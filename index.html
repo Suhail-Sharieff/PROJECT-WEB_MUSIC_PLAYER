@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="x-icon" href="icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MUSIC-PLAYER_BY_SUHAIL</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="close hover">
+          <img src="hamclose.png" width="25px" height="25px" alt="" />
+        </div>
+        <div class="home bg-grey rounded m-1 p-1">
+          <div class="logo">
+            <img
+              src="logo.png"
+              style="
+                height: 150px;
+                width: 274px;
+                border-radius: 34px;
+                justify-content: center;
+              "
+            />
+          </div>
+          <ul
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+            "
+          >
+            <li class="hover">
+              <img class="invert" src="home.svg" alt="home" />Home
+            </li>
+            <li class="hover">
+              <img class="invert" src="search.svg" alt="search" />Search
+            </li>
+          </ul>
+        </div>
+        <div class="library bg-grey rounded m-1 p-1">
+          <div class="heading">
+            <img class="invert" src="playlist.svg" alt="" />
+            <h2>Your library</h2>
+          </div>
+          <div class="songList">
+            <ul></ul>
+          </div>
+          <div class="footer">
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/"
+                ><span>Legal</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/privacy/"
+                ><span>Privacy Center</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                ><span>Privacy Policy</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                ><span>Cookies</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                ><span>About Ads</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/accessibility/"
+                ><span>Accessibility</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-grey rounded">
+        <div class="header">
+          <div class="nav invert flex">
+            <img class="hamburger hover" src="hamburger.png" alt="" />
+
+            <script
+              src="https://cdn.lordicon.com/lordicon.js"
+              class="swipe"
+            ></script>
+            <lord-icon
+              src="https://cdn.lordicon.com/xkmjbjuw.json"
+              trigger="loop"
+              delay="2000"
+              style="width: 65px; height: 65px"
+            >
+            </lord-icon>
+            <div class="volume">
+              <img src="volume.png" alt="" width="65px
+              ">
+              <div class="range invert hover">
+                <input type="range" name="volume" id="">
+              </div>
+            </div>
+          </div>
+          <div class="buttons">
+            <span class="premium buttons hover">Premium</span>
+            <span class="support buttons hover">Support</span>
+            <span class="download buttons hover">Download</span>
+            <button class="signupbtn hover">Sign Up</button>
+            <button class="loginbtn buttons">Login</button>
+           
+          </div>
+        </div>
+        <div class="spotifyPlayLists">
+          <h1>Sharieff's Playlists</h1>
+          <div class="cardContainer">
+
+            <!-- nath -->
+            <div data-folder="nath" class="card">
+              <span class="play">
+                <img src="play-button.png" style="height: 24px" alt="" />
+              </span>
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"
+              />
+              <h2>Connect With Almighty</h2>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+
+              
+
+            </div>
+            <!-- engsongs -->
+            <div data-folder="engsongs" class="card">
+              <span class="play">
+                <img src="play-button.png" style="height: 24px" alt="" />
+              </span>
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"
+              />
+              <h2>Dinner with Friends</h2>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+
+              
+
+            </div>
+            <!-- hinsongs -->
+            <div data-folder="hinsongs" class="card">
+              <span class="play">
+                <img src="play-button.png" style="height: 24px" alt="" />
+              </span>
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"
+              />
+              <h2>AAjao Chaltehe</h2>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+
+              
+
+            </div>
+           <!-- break -->
+            <div data-folder="hinsongs" class="card">
+              <span class="play">
+                <img src="play-button.png" style="height: 24px" alt="" />
+              </span>
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"
+              />
+              <h2>Add Your Folder in Songs</h2>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+
+              
+
+            </div>
+            <!-- break -->
+           
+           <!-- break -->
+            <div data-folder="hinsongs" class="card">
+              <span class="play">
+                <img src="play-button.png" style="height: 24px" alt="" />
+              </span>
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"
+              />
+              <h2>Add Your Folder in Songs</h2>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+
+              
+
+            </div>
+            <!-- break -->
+           
+           <!-- break -->
+            <div data-folder="hinsongs" class="card">
+              <span class="play">
+                <img src="play-button.png" style="height: 24px" alt="" />
+              </span>
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"
+              />
+              <h2>Add Your Folder in Songs</h2>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+
+              
+
+            </div>
+            <!-- break -->
+           
+           <!-- break -->
+            <div data-folder="hinsongs" class="card">
+              <span class="play">
+                <img src="play-button.png" style="height: 24px" alt="" />
+              </span>
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"
+              />
+              <h2>Add Your Folder in Songs</h2>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+
+              
+
+            </div>
+            <!-- break -->
+           
+           <!-- break -->
+            <div data-folder="hinsongs" class="card">
+              <span class="play">
+                <img src="play-button.png" style="height: 24px" alt="" />
+              </span>
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"
+              />
+              <h2>Add Your Folder in Songs</h2>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+
+              
+
+            </div>
+            <!-- break -->
+           
+           <!-- break -->
+            <div data-folder="hinsongs" class="card">
+              <span class="play">
+                <img src="play-button.png" style="height: 24px" alt="" />
+              </span>
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"
+              />
+              <h2>Add Your Folder in Songs</h2>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+
+              
+
+            </div>
+            <!-- break -->
+           
+           <!-- break -->
+            <div data-folder="hinsongs" class="card">
+              <span class="play">
+                <img src="play-button.png" style="height: 24px" alt="" />
+              </span>
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"
+              />
+              <h2>Add Your Folder in Songs</h2>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+
+              
+
+            </div>
+            <!-- break -->
+           
+           <!-- break -->
+            <div data-folder="hinsongs" class="card">
+              <span class="play">
+                <img src="play-button.png" style="height: 24px" alt="" />
+              </span>
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"
+              />
+              <h2>Add Your Folder in Songs</h2>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+
+              
+
+            </div>
+            <!-- break -->
+           
+           <!-- break -->
+            <div data-folder="hinsongs" class="card">
+              <span class="play">
+                <img src="play-button.png" style="height: 24px" alt="" />
+              </span>
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"
+              />
+              <h2>Add Your Folder in Songs</h2>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+
+              
+
+            </div>
+            <!-- break -->
+           
+           <!-- break -->
+            <div data-folder="hinsongs" class="card">
+              <span class="play">
+                <img src="play-button.png" style="height: 24px" alt="" />
+              </span>
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"
+              />
+              <h2>Add Your Folder in Songs</h2>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+
+              
+
+            </div>
+            <!-- break -->
+           
+           <!-- break -->
+            <div data-folder="hinsongs" class="card">
+              <span class="play">
+                <img src="play-button.png" style="height: 24px" alt="" />
+              </span>
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"
+              />
+              <h2>Add Your Folder in Songs</h2>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+
+              
+
+            </div>
+            <!-- break -->
+           
+           <!-- break -->
+            <div data-folder="hinsongs" class="card">
+              <span class="play">
+                <img src="play-button.png" style="height: 24px" alt="" />
+              </span>
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"
+              />
+              <h2>Add Your Folder in Songs</h2>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+
+              
+
+            </div>
+            <!-- break -->
+           
+           <!-- break -->
+            <div data-folder="hinsongs" class="card">
+              <span class="play">
+                <img src="play-button.png" style="height: 24px" alt="" />
+              </span>
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"
+              />
+              <h2>Add Your Folder in Songs</h2>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+
+              
+
+            </div>
+            <!-- break -->
+           
+           <!-- break -->
+            <div data-folder="hinsongs" class="card">
+              <span class="play">
+                <img src="play-button.png" style="height: 24px" alt="" />
+              </span>
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"
+              />
+              <h2>Add Your Folder in Songs</h2>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+
+              
+
+            </div>
+            <!-- break -->
+           
+           <!-- break -->
+            <div data-folder="hinsongs" class="card">
+              <span class="play">
+                <img src="play-button.png" style="height: 24px" alt="" />
+              </span>
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                data-testid="card-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj"
+              />
+              <h2>Add Your Folder in Songs</h2>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+
+              
+
+            </div>
+            <!-- break -->
+           
+
+            
+          </div>
+
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+            <div class="abovebar">
+              <div class="songinfo"></div>
+              <div class="songbuttons">
+                <img id="previous" src="previous.png" alt="" width="25px" />
+                <img id="play" src="play-button.png" alt="" width="25px" />
+                <img id="next" src="next.png" alt="" width="25px" />
+              </div>
+              <div class="songtime">
+                
+                 
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
